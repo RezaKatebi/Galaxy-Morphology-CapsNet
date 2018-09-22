@@ -1,5 +1,5 @@
 # Galaxy morphology prediction using capsule networks
-We implemented our capsule net based on the code provided in [here](https://github.com/gram-ai/capsule-networks).
+We implemented our capsule net based on the code provided in [here](https://github.com/gram-ai/capsule-networks). The paper is submitted to MNRAS and as soon as arXiv link is up I will post it here.
 ## 1 Required Packages
 1. python 3.6
 2. numpy
