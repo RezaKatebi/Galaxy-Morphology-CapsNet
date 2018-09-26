@@ -1,5 +1,7 @@
 # Galaxy morphology prediction using capsule networks
 We implemented our capsule net based on the code provided in [here](https://github.com/gram-ai/capsule-networks). The paper is submitted to MNRAS and you can find it on arXiv at [arXiv:1809.08377](https://arxiv.org/abs/1809.08377).
+
+**Datasets** can be dowloaded from [here](https://catmailohio-my.sharepoint.com/:f:/r/personal/rk726014_ohio_edu/Documents/data_Capsnet?csf=1&e=5Aq2OX). The files were to large so I had to share them through another way.
 ## 1 Required Packages
 1. python 3.6
 2. numpy
@@ -28,14 +30,14 @@ Each folder contains the following structure:
 
 ## 5 Classification based on answers to question 1
 ### 5.1 Baseline CNN
-The **CNN_Baseline_Morph_3_Drop_2fc** folder contains the code for this scenario. The datasets have been provided.
+The **CNN_Baseline_Morph_3_Drop_2fc** folder contains the code for this scenario. The datasets have been provided above. The files are *train_downsample_agreed_0.8.npy* and *train_labels_agreed_0.8.npy*.
 
 ### 5.2 Capsule network
 The Morph_2_new folder contains the code and data is the same as provided in baseline model. You can copy and paste it in the dataset folder here. The **epochs** folder is where the model after each epoch of training will be saved and if you want to restart your training from an specific epoch you can load the model and restart your training.
 
 ## 6 Regression
 ## 6.1 Baseline CNN
-The **CNN_Baseline_Reger** folder contains the codes and the dataset.
+The **CNN_Baseline_Reger** folder contains the codes. The datasets have been provided above.The files are *train_downsample.npy* and *train_labels_regression.npy*.
 
 ## 6.2 Capsule Network
 The **Morph_Reger** folder contains the code and the dataset is the same as provided in baseline model.
