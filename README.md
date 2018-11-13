@@ -1,5 +1,5 @@
 # Galaxy morphology prediction using capsule networks
-We implemented our capsule net based on the code provided in [here](https://github.com/gram-ai/capsule-networks). The paper is submitted to MNRAS and you can find it on arXiv at [arXiv:1809.08377](https://arxiv.org/abs/1809.08377).
+We implemented our capsule net based on the code provided in [here](https://github.com/gram-ai/capsule-networks). The paper is submitted to MNRAS and you can find it on arXiv at [arXiv:1809.08377](https://arxiv.org/abs/1809.08377). You can also read a news article about our work [here](https://www.ohio-forum.com/2018/10/katebis-class-project-leads-to-a-more-accurate-way-to-classify-galaxy-images/)
 
 **Datasets** can be dowloaded from [here](https://catmailohio-my.sharepoint.com/:f:/r/personal/rk726014_ohio_edu/Documents/data_Capsnet?csf=1&e=5Aq2OX). The files were to large so I had to share them through another way.
 ## 1 Required Packages
